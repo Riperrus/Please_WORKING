@@ -1,0 +1,1 @@
+print(sum(map(lambda x:x**2,filter(lambda x:x%9==0 and x>=10 and x<100 and isinstance(x,int),map(int,input().split())))))
